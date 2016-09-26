@@ -1,0 +1,13 @@
+
+
+<div id="dxCircularGauge" dx-circular-gauge="gaugeSettings"></div>
+
+<div id="dxDataGrid" dx-data-grid="dataGridSettings"  dx-item-alias="photo" style="border:1px; float:left; width:900px; height:500px;" >
+	<div data-options="dxTemplate:{name:'cellTemplate'}">
+		<div class="img-container">
+			<img data-ng-src="data:image/png;base64,{{photo.value}}" />
+		</div>
+	</div>
+</div>
+
+
